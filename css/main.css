@@ -1,0 +1,82 @@
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  font-family: "Verdana", "Geneva", sans-serif;
+}
+
+h1 {
+  color: blue;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  color: black;
+}
+
+.red-anchor {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green; 
+}
+
+p {
+  text-indent: 40px;
+  line-height: 2;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+strong {
+  color: green;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.services {
+  font-weight: bold;
+}
+
+.services li:nth-child(odd) {
+  color: red;
+}
+
+/* Стили для таблицы */
+
+table {
+  margin-left: 10px;
+}
+
+table, td {
+  border: 1px solid grey;
+  border-style: inset;
+}
+
+tr:nth-child(odd) {
+  color: white;
+  background: tomato;
+}
+
+tr:nth-child(even) {
+  color: white;
+  background: black;
+}
